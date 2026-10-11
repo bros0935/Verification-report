@@ -1,7 +1,7 @@
 
 ## Get functions and data
 source("~/Documents/Past subjects Psychology/PSYC3010/R_files/functions3010.R")
-JH_data <- read_sav("/home/ben/Documents/interdisciplinary project/James Holmes_Expt 2_DATA.sav")   # read_sav comes from haven (loaded in functions3010)
+JH_data <- read_sav("/home/ben/Documents/interdisciplinary project/James Holmes_Expt 2_DATA.sav")
 JH_data <- as.data.frame(JH_data)
 
 
